@@ -23,8 +23,7 @@ The study uses **5,822 daily observations (2002–2025)** and incorporates equit
 * Rolling means, regime-wise distributions, outlier analysis, correlations
 
 
-
-### 🤖 **Models Implemented**
+🤖 **Models Implemented**
 
 * Logistic Regression
 * LASSO Logistic Regression
@@ -38,24 +37,21 @@ All models are evaluated using:
 * **Confusion matrices**
 * **Regime-specific recall** (with special focus on bear markets)
 
----
 
-### 📈 **Results**
+📈 **Results**
 
 * VIX, TLT/SPY ratio, and yield curve were the most influential predictors.
 * Tree-based models (Random Forest & XGBoost) performed best at identifying **bear markets**, despite overall class imbalance.
 * ML models showed strong potential in **regime-aware investment strategies** and **downside risk management**.
 
----
 
-### 📌 **Conclusion**
+📌 **Conclusion**
 
 The project demonstrates that supervised machine learning models can effectively classify market regimes and identify market downturns using only **pre-market data**.
 This highlights the potential for ML-driven decision support in portfolio risk management.
 
----
 
-### 📁 **Repository Includes**
+📁 **Repository Includes**
 
 * Data preprocessing scripts
 * EDA notebooks
@@ -63,9 +59,8 @@ This highlights the potential for ML-driven decision support in portfolio risk m
 * Visualizations for each modeling step
 * Full PDF report
 
----
 
-### ✨ **Tech Stack**
+✨ **Tech Stack**
 
 * Python
 * Pandas, NumPy
@@ -73,12 +68,3 @@ This highlights the potential for ML-driven decision support in portfolio risk m
 * XGBoost
 * Matplotlib, Seaborn
 * Jupyter Notebook
-
----
-
-If you want, I can also write:
-🔹 A shorter version (2–3 lines) for the GitHub “About” section
-🔹 A professional README.md file with formatting
-🔹 Badges, architecture diagram, or demo images
-
-Just tell me!
